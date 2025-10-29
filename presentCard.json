@@ -253,15 +253,15 @@
                                     
                                     {
                                         "type": "Action.OpenUrl",
-                                        "title": "VIP Check In",
-                                        "url": "https://one-world-role-play-vip.tebex.io/",
+                                        "title": "E-Shop",
+                                        "url": "https://pmrp.sellhub.cx",
                                         "iconUrl": "https://r2.fivemanage.com/hFMuRrCBJ7NtNNuRVzJHE/images/VIP.png",
                                         "style": "positive"
                                     },
                                     {
                                         "type": "Action.OpenUrl",
-                                        "title": "Join Discord",
-                                        "url": "https://discord.gg/8s7x6yakad",
+                                        "title": "Discord",
+                                        "url": "https://discord.gg/GFAeRnSPhK",
                                         "iconUrl": "https://r2.fivemanage.com/hFMuRrCBJ7NtNNuRVzJHE/images/logo_128x128.png",
                                         "style": "positive"
                                     }
@@ -276,7 +276,7 @@
                         "items": [
                             {
                                 "type": "TextBlock",
-                                "text": "Airline Miles: 0",
+                                "text": "Nalítáno míl: 0",
                                 "size": "Medium",
                                 "weight": "Bolder",
                                 "horizontalAlignment": "Left",
