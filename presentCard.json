@@ -1,174 +1,296 @@
 [
     {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "Loading Snipe Queue System",
-                            "color": "Accent",
-                            "weight": "Bolder",
-                            "size": "ExtraLarge"
-                        },
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Queue",
-                                            "wrap": true,
-                                            "size": "Medium"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "Time in Queeu",
-                            "wrap": true,
-                            "size": "Default",
-                            "fontType": "Default",
-                            "weight": "Lighter"
-                        }
-                    ],
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Welcome To Snipe Server",
-                                            "wrap": true,
-                                            "horizontalAlignment": "Right",
-                                            "size": "ExtraLarge",
-                                            "weight": "Bolder"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "test",
-                                            "wrap": true
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Points",
-                                            "wrap": true,
-                                            "horizontalAlignment": "Right",
-                                            "fontType": "Default",
-                                            "weight": "Lighter"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "ColumnSet"
-                        },
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "ActionSet",
-                                            "horizontalAlignment": "Center",
-                                            "actions": [
-                                                {
-                                                    "type": "Action.OpenUrl",
-                                                    "title": "Store",
-                                                    "id": "store",
-                                                    "url": "https://snipe.tebex.io/"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "ActionSet",
-                                            "horizontalAlignment": "Center",
-                                            "actions": [
-                                                {
-                                                    "type": "Action.OpenUrl",
-                                                    "title": "Discord",
-                                                    "url": "https://discord.gg/AeCVP2F8h7"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "ActionSet",
-                                            "horizontalAlignment": "Center",
-                                            "actions": [
-                                                {
-                                                    "type": "Action.OpenUrl",
-                                                    "title": "Rules",
-                                                    "id": "rules",
-                                                    "url": "https://discord.gg/AeCVP2F8h7"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ],
-                            "separator": true,
-                            "spacing": "Medium"
-                        }
-                    ],
-                    "width": "stretch"
-                }
-            ]
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+            {
+                "type": "TextBlock",
+                "text": "Prism Roleplay",
+                "weight": "Bolder",
+                "size": "ExtraLarge",
+                "horizontalAlignment": "Left"
+            },
+            {
+                "type": "ColumnSet",
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": "auto",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "size": "Small",
+                                "url": "https://adaptivecards.io/content/airplane.png"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": "stretch",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Stav letu",
+                                "horizontalAlignment": "Right",
+                                "isSubtle": true,
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "VČAS", 
+                                "horizontalAlignment": "Right",
+                                "spacing": "None",
+                                "size": "Large",
+                                "color": "Good"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ColumnSet",
+                "spacing": "Medium",
+                "separator": true,
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Cestující",
+                                "isSubtle": true,
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "(PlayersName)",
+                                "weight": "Bolder",
+                                "spacing": "Small"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Kapacita míst",
+                                "isSubtle": true,
+                                "horizontalAlignment": "Center",
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "0/0",
+                                "horizontalAlignment": "Center",
+                                "spacing": "Small"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": "1",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Sedadlo",
+                                "isSubtle": true,
+                                "horizontalAlignment": "Right",
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "( POSITION IN QUEUE )",
+                                "horizontalAlignment": "Right",
+                                "spacing": "Small"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ColumnSet",
+                "spacing": "Medium",
+                "separator": true,
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Let",
+                                "isSubtle": true,
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "PM1500",
+                                "spacing": "Small"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Vzlétá",
+                                "isSubtle": true,
+                                "horizontalAlignment": "Center",
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": " (**Player Local Time**) ",
+                                "color": "Good",
+                                "weight": "Bolder",
+                                "horizontalAlignment": "Center",
+                                "spacing": "Small"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Příchod",
+                                "isSubtle": true,
+                                "horizontalAlignment": "Right",
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": " (**Estimated Arrival Time**) ",
+                                "color": "Attention",
+                                "horizontalAlignment": "Right",
+                                "weight": "Bolder",
+                                "spacing": "Small"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ColumnSet",
+                "spacing": "Medium",
+                "separator": true,
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Prague",
+                                "isSubtle": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "PRG",
+                                "size": "ExtraLarge",
+                                "color": "Accent",
+                                "spacing": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": "auto",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": " "
+                            },
+                            {
+                                "type": "Image",
+                                "url": "https://adaptivecards.io/content/airplane.png",
+                                "size": "ExtraLarge"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Los Santos",
+                                "isSubtle": true,
+                                "horizontalAlignment": "Right"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "LSIA",
+                                "horizontalAlignment": "Right",
+                                "size": "ExtraLarge",
+                                "color": "Accent",
+                                "spacing": "None"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ColumnSet",
+                "spacing": "Medium",
+                "separator": true,
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": "stretch",
+                        "horizontalAlignment": "Left",
+                        "items": [
+                            {
+                                "type": "ActionSet",
+                                "actions": [
+                                    
+                                    {
+                                        "type": "Action.OpenUrl",
+                                        "title": "VIP Check In",
+                                        "url": "https://one-world-role-play-vip.tebex.io/",
+                                        "iconUrl": "https://r2.fivemanage.com/hFMuRrCBJ7NtNNuRVzJHE/images/VIP.png",
+                                        "style": "positive"
+                                    },
+                                    {
+                                        "type": "Action.OpenUrl",
+                                        "title": "Join Discord",
+                                        "url": "https://discord.gg/8s7x6yakad",
+                                        "iconUrl": "https://r2.fivemanage.com/hFMuRrCBJ7NtNNuRVzJHE/images/logo_128x128.png",
+                                        "style": "positive"
+                                    }
+                                ],
+                                "horizontalAlignment": "Left"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": "auto",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Airline Miles: 0",
+                                "size": "Medium",
+                                "weight": "Bolder",
+                                "horizontalAlignment": "Left",
+                                "color": "Light"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "backgroundImage": {
+            "url": "",
+            "horizontalAlignment": "Center",
+            "verticalAlignment": "Center"
         }
-    ]
-}
+    }
 ]
